@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   >
+
+    <EditText android:id="@+id/et_person_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:singleLine="true"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        android:imeOptions="actionNext"/>
+
+    <EditText android:id="@+id/et_person_pin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:singleLine="true"
+        android:hint="Sistólica (alta) mmHg >"
+
+        android:inputType="numberDecimal"
+        android:imeOptions="actionNext"/>
+
+    <EditText android:id="@+id/et_person_pindos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:singleLine="true"
+        android:hint="Diástolica (Baja) mmHg >"
+        android:inputType="numberDecimal"
+        android:imeOptions="actionNext"/>
+
+    <EditText android:id="@+id/et_person_pintres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:singleLine="true"
+        android:hint="Ingrese Pulso: Latidos/minuto >"
+        android:inputType="numberDecimal"
+        android:imeOptions="actionDone"/>
+
+    <Button android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="GUARDAR"
+        android:onClick="onClickAdd"/>
+
+</LinearLayout>

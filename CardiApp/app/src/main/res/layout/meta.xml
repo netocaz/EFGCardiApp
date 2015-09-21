@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Meta"
+    android:weightSum="1"
+    android:background="@drawable/fondo"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sistólica (alta):"
+        android:id="@+id/textView2"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/metaeditText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:imeOptions="actionNext"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal">
+
+
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diástolica (baja):"
+        android:id="@+id/textView3"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+
+    <EditText
+        android:id="@+id/metaeditText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:imeOptions="actionDone"
+        android:layout_gravity="center_horizontal">
+
+
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GUARDAR"
+        android:id="@+id/buttonsavemeta"
+        android:layout_gravity="right" />
+
+</LinearLayout>

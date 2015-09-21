@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CardiApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_mediciones">Mediciones</string>
+    <string name="title_activity_tips">Tips</string>
+    <string name="title_activity_ht">HTA</string>
+    <string name="title_activity_videos">Videos</string>
+</resources>

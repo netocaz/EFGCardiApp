@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.netocaz.cardiapp" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> !
+            -->
+        </activity>
+        <activity
+            android:name=".Tips"
+            android:label="@string/title_activity_tips"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".HTA"
+            android:label="@string/title_activity_ht"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Videos"
+            android:label="@string/title_activity_videos"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".EjercicioMainActivity"
+            android:label="@string/title_activity_videos"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".EjercicioSubActivity"
+            android:label="@string/title_activity_videos"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MyActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name=".EnterDataActivity" />
+        <activity
+            android:name=".Mediciones"
+            android:label="@string/title_activity_mediciones" >
+        </activity>
+        <activity
+            android:name=".Meta"
+            android:label="@string/title_activity_mediciones" >
+        </activity>
+    </application>
+
+</manifest>
